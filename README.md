@@ -1,4 +1,3 @@
-
 # EndoAgent - Endoscopic AI System
 
 ## Project Overview
