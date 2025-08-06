@@ -1,8 +1,14 @@
 
-# EndoAgent - Endoscopic AI System
+# EndoAgent - Endoscopic AI Agent
 
 ## Project Overview
 EndoAgent is a multimodal AI system for endoscopic image analysis, supporting image classification, detection, segmentation, polyp generation/removal, visual question answering, and automated report generation. The system integrates multiple deep learning tools and provides a user-friendly Gradio interface.
+
+<p align="center">
+  <img src="./demo/overview.png" alt="EndoAgent Overview" width="900"/>
+</p>
+
+*Overview of EndoAgent as shown above.*
 
 ## Dataset Preparation
 Dataset preparation scripts are located in the `data_prepare/` folder, with separate subfolders for visual tasks (`visual_task/`) and language tasks (`language_task/`). Each contains scripts for data generation and conversion.
@@ -18,6 +24,12 @@ Evaluation scripts are located in the `evalutaion/` folder, divided into visual 
 ## Interface
 - Supports both Chinese and English interfaces: `interface_zh.py` (Chinese) and `interface_en.py` (English).
 - Run `gradio.py` to launch the Gradio web interface for interactive experience.
+
+<p align="center">
+  <img src="./demo/interface_demo.gif" alt="Gradio Interface Demo" width="600"/>
+</p>
+
+*Animated demo of the Gradio web interface.*
 
 ## Environment Setup
 Conda is recommended:
