@@ -1,5 +1,5 @@
 
-# EndoAgent - Endoscopic AI Agent
+# EndoAgent - Endoscopic AI System
 
 ## Project Overview
 EndoAgent is a multimodal AI system for endoscopic image analysis, supporting image classification, detection, segmentation, polyp generation/removal, visual question answering, and automated report generation. The system integrates multiple deep learning tools and provides a user-friendly Gradio interface.
